@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Click love encoded</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class='v-align'>
+  <div class='hero-btn'>
+    <button class='btn'>
+    NUESTROS RECUERDOS
+     
+    </button>
+
+
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    <span class='particles-circle'></span>
+    
+  </div>
+</div>
+
+<div class='made-with-love'>
+ HECHO 
+ POR
+  <span>😎</span>
+  Angelo Martínez
+
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script >
+    $('.hero-btn').click(function(){
+  if(!$('.hero-btn').parent().hasClass('active')){
+    $(this).parent().stop().addClass('active');
+    setTimeout(function(){  
+      $('.hero-btn').parent().removeClass('active'); 
+      mostrarTextoAmor(); 
+    }, 2500);
+  }
+});
+
+function mostrarTextoAmor() {
+  // Cambia la ubicación de la página actual a 'galeria.html'
+  window.location.href = "galeria.html";
+}
+  </script>
+
+</body>
+</html>
